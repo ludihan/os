@@ -1,6 +1,4 @@
-# funiOS
-
-the """funiest""" OS ever made!
+# lunaris
 
 ## Building
 1. Install [Nix](https://nixos.org/)

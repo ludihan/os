@@ -1,5 +1,5 @@
 [package]
-name = "funiOS"
+name = "lunaris"
 version = "0.1.0"
 edition = "2024"
 
@@ -21,6 +21,6 @@ panic = "abort" # disable stack unwinding on panic
 panic = "abort" # disable stack unwinding on panic
 
 [[bin]]
-name = "funiOS"
+name = "lunaris"
 test = false
 bench = false

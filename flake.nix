@@ -41,7 +41,7 @@
               ];
 
               shellHook = ''
-                export PS1="(funiOS) $PS1"
+                export PS1="(lunaris) $PS1"
               '';
             };
         }
