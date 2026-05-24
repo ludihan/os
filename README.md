@@ -1,12 +1,18 @@
 # lunaris
 
 ## Building
-1. Install [Nix](https://nixos.org/)
-2. Enter the development shell:
+1. Enter the development shell using Nix (with flakes and new cli enabled):
 ```sh
 nix develop
 ```
-3. Build and run the kernel inside QEMU:
+
+If you're not using nix/nixos you will need to install
+[rustup](https://rustup.rs/), [QEMU](https://www.qemu.org/) and
+[bootimage](https://github.com/rust-osdev/bootimage).
+
+Both qemu and bootimage need to be in PATH.
+
+2. Build and run the kernel inside QEMU:
 ```sh
 cargo r
 ```
